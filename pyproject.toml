@@ -1,0 +1,59 @@
+[project]
+name = "soccernet-depth-estimation"
+version = "0.1.0"
+requires-python = ">=3.9"
+dependencies = [
+    "albumentations>=1.4.18",
+    "gradio==4.29.0",
+    "matplotlib>=3.7.5",
+    "numpy>=1.24.4",
+    "opencv-python>=4.11.0.86",
+    "torch>=2.5.1",
+    "torchvision>=0.20.1",
+]
+
+[tool.ruff]
+exclude = [
+    ".bzr",
+    ".direnv",
+    ".eggs",
+    ".git",
+    ".git-rewrite",
+    ".hg",
+    ".ipynb_checkpoints",
+    ".mypy_cache",
+    ".nox",
+    ".pants.d",
+    ".pyenv",
+    ".pytest_cache",
+    ".pytype",
+    ".ruff_cache",
+    ".svn",
+    ".tox",
+    ".venv",
+    ".vscode",
+    "__pypackages__",
+    "_build",
+    "buck-out",
+    "build",
+    "dist",
+    "node_modules",
+    "site-packages",
+    "venv",
+]
+line-length = 88
+fix = false
+indent-width = 4
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "B", "W", "I002"]
+ignore = ["W293", "W291"]
+fixable = ["ALL"]
+
+[tool.ruff.format]
+line-ending = "lf"
+
+[tool.black]
+line-length = 88
+skip-string-normalization = false
+skip-magic-trailing-comma = false

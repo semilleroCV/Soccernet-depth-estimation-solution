@@ -1,1 +1,3 @@
-# Soccernet-depth-estimation-solution
+# soccernet
+
+python version 3.9
