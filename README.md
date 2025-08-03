@@ -1,13 +1,33 @@
-# 🥅 SoccerNet Challenge - Monocular Depth Estimation 🏟️
+# 🥇 CVPR 2025 Winner - SoccerNet Monocular Depth Estimation Challenge
 
-## 📝 Project Description
-This repository contains the solution for the SoccerNet Monocular Depth Estimation challenge. The goal is to predict accurate depth maps from RGB images of soccer matches, enabling better 3D spatial understanding of sports scenes.
+## 🏟️ Project Description
+
+This repository contains the **winning solution** to the SoccerNet Monocular Depth Estimation Challenge at **CVPR 2025**. Our method predicts accurate depth maps from RGB images of soccer matches, enabling improved 3D spatial understanding in sports analytics.
+
+## 📈 Challenge Results
+
+🏆 **1st Place** at the SoccerNet Monocular Depth Estimation Challenge (CVPR 2025)
+
+| Rank | Team                     | RMSE   | AbsRel | RMSElog | SqRel  | SIlog |
+|------|--------------------------|--------|--------|---------|--------|-------|
+| 1️⃣   | Hands-On Computer Vision | 0.00242 | 0.00164 | 0.00432 | 2e-05 | 0.43  |
+| 2    | HUST-iPad                | 0.00258 | 0.00179 | 0.00468 | 3e-05 | 0.47  |
+| 3    | bupt miclab              | 0.00268 | 0.00186 | 0.00484 | 3e-05 | 0.48  |
+| 4    | jacekm                   | 0.00275 | 0.00207 | 0.00500 | 3e-05 | 0.50  |
+| 5    | hvrl                     | 0.00282 | 0.00228 | 0.00502 | 3e-05 | 0.50  |
+
+📺 [Presentation Video](https://youtu.be/5W_7nTs2FDo)  
+📊 [Official Leaderboard](https://www.codabench.org/competitions/6864/#/results-tab)
+
+---
 
 ## 🔍 Key Features
-- 🔄 Based on **Depth Anything V2**, state-of-the-art model for depth estimation
-- 📊 Evaluation using standard metrics: RMSE, Abs_Rel, SILog, RMSE Log, Sq_Rel
-- 🧠 Fine-tuning of pre-trained models for the specific domain of soccer images
-- 🎯 Optimized for soccer field scenes with specific color and geometric transformations
+
+- 🔄 Based on **Depth Anything V2**, a state-of-the-art model for depth estimation.
+- 📊 Evaluated using standard metrics: RMSE, AbsRel, SILog, RMSElog, SqRel.
+- 🧠 Fine-tuned for soccer-specific imagery and temporal consistency.
+- 🖼️ Preserves sharp edges and fine details via specialized losses.
+- 📏 Full-resolution training for enhanced accuracy.
 
 ## 🧩 Architecture
 The solution uses the Depth Anything V2 architecture with different encoders (Small, Base, Large), which combines a pre-trained ViT backbone with a specialized DPT head to estimate precise metric depth.
