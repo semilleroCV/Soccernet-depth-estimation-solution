@@ -22,6 +22,7 @@ This repository contains the **winning solution** to the SoccerNet Monocular Dep
 
 📺 [Presentation Video](https://youtu.be/5W_7nTs2FDo)  
 📊 [Official Leaderboard](https://www.codabench.org/competitions/6864/#/results-tab)
+📰 [Paper](https://arxiv.org/pdf/2508.19182v1)
 
 ---
 
