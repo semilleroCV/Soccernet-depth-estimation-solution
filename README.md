@@ -30,7 +30,7 @@ This repository contains the **winning solution** to the SoccerNet Monocular Dep
 - 📏 Full-resolution training for enhanced accuracy.
 
 ## 🧩 Architecture
-The solution uses the Depth Anything V2 architecture with different encoders (Small, Base, Large), which combines a pre-trained ViT backbone with a specialized DPT head to estimate precise metric depth.
+The solution uses the Depth Anything V2 Large architecture, which combines a pre-trained ViT backbone with a specialized DPT head to estimate precise metric depth.
 
 ## 🛠️ Requirements
 - Python 3.9
@@ -64,3 +64,9 @@ python evaluate_depth.py --pred_dir [predictions_directory] --gt_dir [ground_tru
 python challenge.py --encoder vitl --checkpoint_path [checkpoint_path] --input_dir [input_directory] --output_dir [output_directory]
 ```
 Training options can be modified in the train.sh file.
+
+
+---
+
+
+feel free to use it and modify it as you wish, if you find this code useful please give a star ⭐ to the repository.
