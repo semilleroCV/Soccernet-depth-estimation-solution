@@ -21,7 +21,7 @@ This repository contains the **winning solution** to the SoccerNet Monocular Dep
 | 5    | hvrl                     | 0.00282 | 0.00228 | 0.00502 | 3e-05 | 0.50  |
 
 📺 [Presentation Video](https://youtu.be/5W_7nTs2FDo)  
-📊 [Official Leaderboard](https://www.codabench.org/competitions/6864/#/results-tab)
+📊 [Official Leaderboard](https://www.codabench.org/competitions/6864/#/results-tab) 
 📰 [Paper](https://arxiv.org/pdf/2508.19182v1)
 
 ---
