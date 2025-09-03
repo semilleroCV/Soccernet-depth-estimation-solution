@@ -1,5 +1,9 @@
 # 🥇 CVPR 2025 Winner - SoccerNet Monocular Depth Estimation Challenge
 
+Team Hand-on Computer Vision
+
+Members: [Fabian Perez](https://github.com/factral/), [Henry Mantilla](https://github.com/HenryMantilla), [Jorge García](https://github.com/jorge1b3), [Cristian Rey](https://github.com/CristianR8), Jose Sarmiento and [Hoover Rueda-Chacón](https://www.hfarueda.com/)
+
 ## 🏟️ Project Description
 
 This repository contains the **winning solution** to the SoccerNet Monocular Depth Estimation Challenge at **CVPR 2025**. Our method predicts accurate depth maps from RGB images of soccer matches, enabling improved 3D spatial understanding in sports analytics.
